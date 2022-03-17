@@ -1,58 +1,258 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
+    android:background="#80C4E3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:text="Anak 1"
-        android:textSize="30sp"
-        android:background="#FFF000"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content" />
-
-    <TextView
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:background="#A6FF00"
-        android:text="Anak 2"
-        android:textSize="30sp" />
-
-    <TextView
-        android:text="Anak 3"
-        android:textSize="30sp"
-        android:background="#00FFE1"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"/>
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:orientation="horizontal"
+    <View
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MainActivity">
-    <TextView
-        android:text="Anak 4"
-        android:textSize="30sp"
-        android:background="#FF8400"
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:text="Anak 5"
-        android:textSize="30sp"
-        android:background="#9D00FF"
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:text="Anak 6"
-        android:textSize="30sp"
-        android:background="#FF0099"
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"/>
+        android:layout_height="250dp"
+        android:background="#FFC107"/>
 
-</LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/Afri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:background="@color/white">
+                <ImageView
+                    android:id="@+id/Anak1"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="16dp"
+                    android:src="@drawable/fasting" />
+                <TextView
+                    android:id="@+id/Anak2"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@id/Anak1"
+                    android:layout_alignTop="@id/Anak1"
+                    android:layout_alignRight="@id/Anak1"
+                    android:layout_alignBottom="@id/Anak1"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="PERATURAN"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@id/Anak1"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/beads" />
+
+                <TextView
+                    android:id="@+id/Anak2"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@id/Anak1"
+                    android:layout_alignTop="@id/Anak1"
+                    android:layout_alignRight="@id/Anak1"
+                    android:layout_alignBottom="@id/Anak1"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="BERDOA"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/Anak1"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:paddingBottom="16dp"
+                    android:src="@drawable/adzan" />
+
+                <TextView
+                    android:id="@+id/Anak2"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@id/Anak1"
+                    android:layout_alignTop="@id/Anak1"
+                    android:layout_alignRight="@id/Anak1"
+                    android:layout_alignBottom="@id/Anak1"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="MASJID"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/Anak1"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="30dp"
+                    android:src="@drawable/bedug" />
+
+                <TextView
+                    android:id="@+id/Anak2"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@id/Anak1"
+                    android:layout_alignTop="@id/Anak1"
+                    android:layout_alignRight="@id/Anak1"
+                    android:layout_alignBottom="@id/Anak1"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="BEDUG"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/Afri"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/Anak1"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="25dp"
+                    android:src="@drawable/iftar" />
+
+                <TextView
+                    android:id="@+id/Anak2"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@id/Anak1"
+                    android:layout_alignTop="@id/Anak1"
+                    android:layout_alignRight="@id/Anak1"
+                    android:layout_alignBottom="@id/Anak1"
+                    android:layout_marginTop="102dp"
+                    android:gravity="center"
+                    android:text="SAHUR&BUKA"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/Anak1"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:paddingBottom="16dp"
+                    android:src="@drawable/quran" />
+
+                <TextView
+                    android:id="@+id/Anak2"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@id/Anak1"
+                    android:layout_alignTop="@id/Anak1"
+                    android:layout_alignRight="@id/Anak1"
+                    android:layout_alignBottom="@id/Anak1"
+                    android:layout_marginTop="94dp"
+                    android:gravity="center"
+                    android:text="AL-QUR'AN"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/Anak1"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:paddingBottom="20dp"
+                    android:src="@drawable/ketupat" />
+
+                <TextView
+                    android:id="@+id/Anak2"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@id/Anak1"
+                    android:layout_alignTop="@id/Anak1"
+                    android:layout_alignRight="@id/Anak1"
+                    android:layout_alignBottom="@id/Anak1"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="IDUL FITRI"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/Anak1"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:paddingBottom="16dp"
+                    android:src="@drawable/prayerrug" />
+
+                <TextView
+                    android:id="@+id/Anak2"
+                    android:layout_width="64dp"
+                    android:layout_height="23dp"
+                    android:layout_alignLeft="@id/Anak1"
+                    android:layout_alignTop="@id/Anak1"
+                    android:layout_alignRight="@id/Anak1"
+                    android:layout_alignBottom="@id/Anak1"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:text="BERIBADAH"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
