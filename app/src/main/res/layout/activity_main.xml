@@ -169,7 +169,7 @@
                     android:layout_alignBottom="@id/Anak1"
                     android:layout_marginTop="102dp"
                     android:gravity="center"
-                    android:text="SAHUR&BUKA"
+                    android:text="SAHUR DAN BUKA"
                     android:textColor="#000000" />
             </RelativeLayout>
 
