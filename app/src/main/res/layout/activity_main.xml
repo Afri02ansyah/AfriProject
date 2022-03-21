@@ -32,7 +32,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
-                android:background="@color/white">
+                android:background="@drawable/background">
+
                 <ImageView
                     android:id="@+id/gbperaturan"
                     android:layout_width="125dp"
@@ -40,6 +41,7 @@
                     android:paddingTop="10dp"
                     android:paddingBottom="30dp"
                     android:src="@drawable/fasting" />
+
                 <TextView
                     android:id="@+id/peraturan"
                     android:layout_width="64dp"
@@ -58,7 +60,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
-                android:background="@color/white">
+                android:background="@drawable/background">
 
                 <ImageView
                     android:id="@+id/gbberdoa"
@@ -86,7 +88,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
-                android:background="@color/white">
+                android:background="@drawable/background">
 
                 <ImageView
                     android:id="@+id/gbmasjid"
@@ -114,7 +116,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
-                android:background="@color/white">
+                android:background="@drawable/background">
 
                 <ImageView
                     android:id="@+id/gbbedug"
@@ -152,7 +154,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
-                android:background="@color/white">
+                android:background="@drawable/background">
 
                 <ImageView
                     android:id="@+id/gbsahurbuka"
@@ -180,7 +182,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
-                android:background="@color/white">
+                android:background="@drawable/background">
 
                 <ImageView
                     android:id="@+id/gbalquran"
@@ -208,7 +210,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
-                android:background="@color/white">
+                android:background="@drawable/background">
 
                 <ImageView
                     android:id="@+id/gbidulfitri"
@@ -236,7 +238,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
-                android:background="@color/white">
+                android:background="@drawable/background">
 
                 <ImageView
                     android:id="@+id/gbibadah"
