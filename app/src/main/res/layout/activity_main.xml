@@ -21,7 +21,7 @@
         android:gravity="center">
 
         <LinearLayout
-            android:id="@+id/Afri"
+            android:id="@+id/line1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="25dp"
@@ -34,20 +34,20 @@
                 android:layout_marginBottom="25dp"
                 android:background="@color/white">
                 <ImageView
-                    android:id="@+id/Anak1"
+                    android:id="@+id/gbperaturan"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
-                    android:paddingTop="0dp"
-                    android:paddingBottom="16dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="30dp"
                     android:src="@drawable/fasting" />
                 <TextView
-                    android:id="@+id/Anak2"
+                    android:id="@+id/peraturan"
                     android:layout_width="64dp"
                     android:layout_height="23dp"
-                    android:layout_alignLeft="@id/Anak1"
-                    android:layout_alignTop="@id/Anak1"
-                    android:layout_alignRight="@id/Anak1"
-                    android:layout_alignBottom="@id/Anak1"
+                    android:layout_alignLeft="@id/gbperaturan"
+                    android:layout_alignTop="@id/gbperaturan"
+                    android:layout_alignRight="@id/gbperaturan"
+                    android:layout_alignBottom="@id/gbperaturan"
                     android:layout_marginTop="90dp"
                     android:gravity="center"
                     android:text="PERATURAN"
@@ -61,20 +61,21 @@
                 android:background="@color/white">
 
                 <ImageView
-                    android:id="@id/Anak1"
+                    android:id="@+id/gbberdoa"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
-                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="30dp"
                     android:src="@drawable/beads" />
 
                 <TextView
-                    android:id="@+id/Anak2"
+                    android:id="@+id/berdoa"
                     android:layout_width="64dp"
                     android:layout_height="23dp"
-                    android:layout_alignLeft="@id/Anak1"
-                    android:layout_alignTop="@id/Anak1"
-                    android:layout_alignRight="@id/Anak1"
-                    android:layout_alignBottom="@id/Anak1"
+                    android:layout_alignLeft="@id/gbberdoa"
+                    android:layout_alignTop="@id/gbberdoa"
+                    android:layout_alignRight="@id/gbberdoa"
+                    android:layout_alignBottom="@id/gbberdoa"
                     android:layout_marginTop="90dp"
                     android:gravity="center"
                     android:text="BERDOA"
@@ -88,20 +89,21 @@
                 android:background="@color/white">
 
                 <ImageView
-                    android:id="@+id/Anak1"
+                    android:id="@+id/gbmasjid"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
-                    android:paddingBottom="16dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="30dp"
                     android:src="@drawable/adzan" />
 
                 <TextView
-                    android:id="@+id/Anak2"
+                    android:id="@+id/masjid"
                     android:layout_width="64dp"
                     android:layout_height="23dp"
-                    android:layout_alignLeft="@id/Anak1"
-                    android:layout_alignTop="@id/Anak1"
-                    android:layout_alignRight="@id/Anak1"
-                    android:layout_alignBottom="@id/Anak1"
+                    android:layout_alignLeft="@id/gbmasjid"
+                    android:layout_alignTop="@id/gbmasjid"
+                    android:layout_alignRight="@id/gbmasjid"
+                    android:layout_alignBottom="@id/gbmasjid"
                     android:layout_marginTop="90dp"
                     android:gravity="center"
                     android:text="MASJID"
@@ -115,7 +117,7 @@
                 android:background="@color/white">
 
                 <ImageView
-                    android:id="@+id/Anak1"
+                    android:id="@+id/gbbedug"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
                     android:adjustViewBounds="true"
@@ -124,13 +126,13 @@
                     android:src="@drawable/bedug" />
 
                 <TextView
-                    android:id="@+id/Anak2"
+                    android:id="@+id/bedug"
                     android:layout_width="64dp"
                     android:layout_height="23dp"
-                    android:layout_alignLeft="@id/Anak1"
-                    android:layout_alignTop="@id/Anak1"
-                    android:layout_alignRight="@id/Anak1"
-                    android:layout_alignBottom="@id/Anak1"
+                    android:layout_alignLeft="@id/gbbedug"
+                    android:layout_alignTop="@id/gbbedug"
+                    android:layout_alignRight="@id/gbbedug"
+                    android:layout_alignBottom="@id/gbbedug"
                     android:layout_marginTop="90dp"
                     android:gravity="center"
                     android:text="BEDUG"
@@ -139,9 +141,10 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/line2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/Afri"
+            android:layout_toEndOf="@id/line1"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -152,22 +155,22 @@
                 android:background="@color/white">
 
                 <ImageView
-                    android:id="@+id/Anak1"
+                    android:id="@+id/gbsahurbuka"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
-                    android:paddingTop="15dp"
-                    android:paddingBottom="25dp"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="30dp"
                     android:src="@drawable/iftar" />
 
                 <TextView
-                    android:id="@+id/Anak2"
+                    android:id="@+id/sahurbuka"
                     android:layout_width="64dp"
                     android:layout_height="23dp"
-                    android:layout_alignLeft="@id/Anak1"
-                    android:layout_alignTop="@id/Anak1"
-                    android:layout_alignRight="@id/Anak1"
-                    android:layout_alignBottom="@id/Anak1"
-                    android:layout_marginTop="102dp"
+                    android:layout_alignLeft="@id/gbsahurbuka"
+                    android:layout_alignTop="@id/gbsahurbuka"
+                    android:layout_alignRight="@id/gbsahurbuka"
+                    android:layout_alignBottom="@id/gbsahurbuka"
+                    android:layout_marginTop="90dp"
                     android:gravity="center"
                     android:text="SAHUR DAN BUKA"
                     android:textColor="#000000" />
@@ -180,21 +183,22 @@
                 android:background="@color/white">
 
                 <ImageView
-                    android:id="@+id/Anak1"
+                    android:id="@+id/gbalquran"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
-                    android:paddingBottom="16dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="30dp"
                     android:src="@drawable/quran" />
 
                 <TextView
-                    android:id="@+id/Anak2"
+                    android:id="@+id/alquran"
                     android:layout_width="64dp"
                     android:layout_height="23dp"
-                    android:layout_alignLeft="@id/Anak1"
-                    android:layout_alignTop="@id/Anak1"
-                    android:layout_alignRight="@id/Anak1"
-                    android:layout_alignBottom="@id/Anak1"
-                    android:layout_marginTop="94dp"
+                    android:layout_alignLeft="@id/gbalquran"
+                    android:layout_alignTop="@id/gbalquran"
+                    android:layout_alignRight="@id/gbalquran"
+                    android:layout_alignBottom="@id/gbalquran"
+                    android:layout_marginTop="90dp"
                     android:gravity="center"
                     android:text="AL-QUR'AN"
                     android:textColor="#000000" />
@@ -207,20 +211,21 @@
                 android:background="@color/white">
 
                 <ImageView
-                    android:id="@+id/Anak1"
+                    android:id="@+id/gbidulfitri"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
-                    android:paddingBottom="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="30dp"
                     android:src="@drawable/ketupat" />
 
                 <TextView
-                    android:id="@+id/Anak2"
+                    android:id="@+id/idulfitri"
                     android:layout_width="64dp"
                     android:layout_height="23dp"
-                    android:layout_alignLeft="@id/Anak1"
-                    android:layout_alignTop="@id/Anak1"
-                    android:layout_alignRight="@id/Anak1"
-                    android:layout_alignBottom="@id/Anak1"
+                    android:layout_alignLeft="@id/gbidulfitri"
+                    android:layout_alignTop="@id/gbidulfitri"
+                    android:layout_alignRight="@id/gbidulfitri"
+                    android:layout_alignBottom="@id/gbidulfitri"
                     android:layout_marginTop="90dp"
                     android:gravity="center"
                     android:text="IDUL FITRI"
@@ -234,20 +239,21 @@
                 android:background="@color/white">
 
                 <ImageView
-                    android:id="@+id/Anak1"
+                    android:id="@+id/gbibadah"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
-                    android:paddingBottom="16dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="30dp"
                     android:src="@drawable/prayerrug" />
 
                 <TextView
-                    android:id="@+id/Anak2"
+                    android:id="@+id/textiview1"
                     android:layout_width="64dp"
                     android:layout_height="23dp"
-                    android:layout_alignLeft="@id/Anak1"
-                    android:layout_alignTop="@id/Anak1"
-                    android:layout_alignRight="@id/Anak1"
-                    android:layout_alignBottom="@id/Anak1"
+                    android:layout_alignLeft="@id/gbibadah"
+                    android:layout_alignTop="@id/gbibadah"
+                    android:layout_alignRight="@id/gbibadah"
+                    android:layout_alignBottom="@id/gbibadah"
                     android:layout_marginTop="90dp"
                     android:gravity="center"
                     android:text="BERIBADAH"
