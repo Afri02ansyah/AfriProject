@@ -21,7 +21,7 @@ public class MenuActivity extends AppCompatActivity {
         ivMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent( MenuActivity.this, MainActivity.class);
+                Intent intent = new Intent( MenuActivity.this,MainActivity.class);
                 startActivity(intent);
             }
         });
